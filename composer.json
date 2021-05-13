@@ -1,0 +1,12 @@
+{
+    "name": "parno/test",
+    "description": "using php unit",
+    "autoload": {
+        "psr-4": {
+            "Parno\\":"class/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}
